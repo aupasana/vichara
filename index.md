@@ -1,0 +1,53 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+skip_mangala: true
+---
+
+<div class="kesari">
+    <img src="/assets/images/simha_garjana.svg" alt="vedanta kesari" height="150" class="kesari-image" />
+    <div>
+    <div class="skt">
+    तावद्गर्जन्ति शास्त्राणि जम्बुका विपिने यथा।<br/>
+    न गर्जन्ति महाशक्तिर्यावद्वेदान्तकेसरी॥
+    </div>
+    "In the forest of thought, the jackals of numerous philosophical views continue
+to howl, until the lion of vedānta sets forth it's triumphant roar."
+    </div>
+</div>
+
+<div class="mangala" markdown="1">
+॥ॐ गुरुपरमात्मने नमः॥
+</div><p/>
+
+<div>
+The vicāra candrodaya is the moon that rises out of the ocean of vedāntic inquiry.
+This prakaraṇa grantha was composed by pt. pītāmbar-jī in hindi. 
+We have translated it into saṁskr̥t, along with an english gloss.
+</div>
+
+## 16 kalās of the vicāra candrodaya
+
+- [introduction]({% link chandra/introduction.md %})
+- [the big picture & sādhanas]({% link chandra/big_picture.md %})
+
+The vicāra candrodaya spans 427 topics (248 questions + 179 footnotes) across the 15 chapters (kalās). 
+This is followed by a glossary of terms in the last kalā.
+
+<ul>
+{% for kala_item in site.kala %}
+    {% if kala_item.sections %}
+<li><a href="{{ kala_item.url }}">kalā {{kala_item.kala_number}} - {{kala_item.description}} (<span class="skt_span">{{kala_item.description_skt}}</span>)</a></li>
+    {% else %}
+<li>kalā {{kala_item.kala_number}} - {{kala_item.description}} (<span class="skt_span">{{kala_item.description_skt}}</span>)</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+- [all diagrams]({% link chandra/diagrams.md %})
+
+## Other essays
+
+- [pramātr̥-bhāsya, sākṣi-bhāsya, avidyā-āśrayatva, antaḥkaraṇa-āśrayatva]({% link essays/pratyaksha-bhasya.md %})

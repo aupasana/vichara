@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h1><span class="kala_part_span"><a href="/chandra/kala/{{page.kala_number}}#sec{{page.kala_number}}.{{page.section_number}}">Kalā {{page.kala_number}} part {{page.section_number}}</a></span> - {{page.section_title}}</h1>
+
+{{ content }}
+
+{% if page.questions %}
+
+  {% for q_id in page.questions %}
+    {% assign question_item = site.kala_question | where: "kala_question_id", q_id | first %}
+
+    {% if question_item %}
+      <div class="item_question" id="{{question_item.kala_number}}.{{ question_item.question_number }}" >{{question_item.kala_number}}.{{ question_item.question_number }}: {{ question_item.question_text }}?<br/>
+      <span class="skt_span">प्रश्नः - {{ question_item.question_text_skt }} ?</span></div><p/>
+        {% if question_item.no_split == true %}
+          {{ question_item.content }}
+        {% else %}
+          {% assign sections = question_item.content | split: '<!-- split -->' %}
+          <div class="skt" markdown="1">{{ sections[0] | markdownify }}</div><p/>
+          <div class="translation" markdown="1">
+            {{ sections[1] | markdownify }}
+          </div>
+        {% endif %}
+    {% else %}
+      Missing question: {{ related_id }}
+    {% endif %}
+
+    <p/><hr/>
+  {% endfor %}
+
+{% endif %}
+
