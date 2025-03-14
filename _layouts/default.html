@@ -1,0 +1,30 @@
+---
+id: default
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      
+      <div class="wrapper">
+      {% unless layout.nomangala %}
+          <div class="mangala" markdown="1">
+            ॥ॐ गुरुपरमात्मने नमः॥
+          </div><p/>
+      {% endunless %}
+          {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
