@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h2>{{ page.glossary_heading }} ( <span class="skt_span">{{ page.glossary_heading_skt }}</span> )</h2>
+
+{% assign sections = page.content | split: '<!-- split -->' %}
+<div class="skt" markdown="1">{{ sections[0] | markdownify }}</div><p/>
+<div class="translation" markdown="1">
+  {{ sections[1] | markdownify }}
+</div>
+
