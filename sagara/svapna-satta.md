@@ -1,0 +1,17 @@
+---
+layout: page
+permalink: /sagara/svapna-satta
+---
+
+# svapna -- it's adhiṣṭhāna, upādāna and sattā
+
+These adhiṣṭhāna, upādāna kāraṇa and satta of svapna are described in the 6th taraṅga of the samskr̥ta vicāra sāgara.
+
+
+<img src="/assets/images/sagara/other-svapna-satta.svg" alt="svapna satta" id="svapna satta"/>
+
+
+
+
+
+

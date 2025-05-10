@@ -1,0 +1,21 @@
+---
+layout: page
+---
+<div class="skt" markdown=""1">
+
+{% if page.skip_title != true %}
+<h2>{{ page.title }}</h2>
+{% endif %}
+
+    {{ content }}
+
+{% if page.index_terms %}
+<div class="tags">
+Terms: 
+{% for term in page.index_terms %}
+    <a href="/terms#{{term}}">{{ term }}</a> 
+{% endfor %}
+</div>
+{% endif %}
+
+</div>
