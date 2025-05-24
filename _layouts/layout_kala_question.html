@@ -1,0 +1,48 @@
+---
+layout: layout_collection_nav
+parent: /chandra
+---
+
+
+      <div class="item_question" id="{{page.kala_number}}.{{ page.question_number }}" ><img src="/assets/images/icons/file-regular.svg" class="icon-card"/> <span class="question_number">{{page.kala_number}}.{{ page.question_number }}</span>
+        <span class="skt_span"> &nbsp; {{ page.question_text_skt }} </span>
+        <br/><span class="item_question_eng">{{ page.question_text }}<br/></span>
+      </div><p/>
+      {% if page.no_split == true %}
+        {{ page.content }}
+      {% else %}
+        {% assign sections = page.content | split: '<!-- split -->' %}
+        <div class="skt" markdown="1">{{ sections[0] | markdownify }}</div><p/>
+        <div class="translation" markdown="1">
+          {{ sections[1] | markdownify }}
+        </div>
+
+        {% if sections.size >= 3 %}
+        <div class="accordion" id="postAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="ref-{{page.kala_number}}.{{ page.question_number }}">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-ref-{{page.kala_number}}.{{ page.question_number }}" aria-expanded="false" aria-controls="collapse-ref-{{page.kala_number}}.{{ page.question_number }}">
+                External references:
+              </button>
+            </h2>
+            <div id="collapse-ref-{{page.kala_number}}.{{ page.question_number }}" class="accordion-collapse collapse" aria-labelledby="ref-{{page.kala_number}}.{{ page.question_number }}" data-bs-parent="#postAccordion">
+              <div class="accordion-body">
+                <div class="skt">{{ sections[2] | markdownify }}</div>
+              </div>
+            </div>
+          </div>
+        </div>          
+        {% endif %}
+
+
+      {% endif %}
+
+        {% if page.related_topics %}
+        <div class="related">
+          <p>Related Topics:
+            {% for related_topics_item in page.related_topics %}<a href="{{ page.related_topics_links[forloop.index0] }}">{{ related_topics_item }}</a>. {% endfor %}          
+          </p>
+        </div>
+        {% endif %}
+
+        {% include tags.html index_terms=page.index_terms link_terms=page.link_terms %}

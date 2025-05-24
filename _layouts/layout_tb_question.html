@@ -1,0 +1,18 @@
+---
+layout: layout_collection_nav
+parent: /tattvabodha
+---
+
+<div class="item_question" id="{{page.section_number}}.{{ page.question_number }}" >{{page.section_number}}.{{ page.question_number }}: <span class="item_question_eng">{{ page.question_text }}<br/></span>
+<span class="skt_span">{{ page.question_text_skt }}</span></div><p/>
+  {% if page.no_split == true %}
+    {{ page.content }}
+  {% else %}
+    {% assign sections = page.content | split: '<!-- split -->' %}
+    <div class="skt" markdown="1">{{ sections[0] | markdownify }}</div><p/>
+    <div class="translation" markdown="1">
+      {{ sections[1] | markdownify }}
+    </div>
+  {% endif %}
+
+  {% include tags.html index_terms=page.index_terms link_terms=page.link_terms %}
