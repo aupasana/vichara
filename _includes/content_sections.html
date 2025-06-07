@@ -1,0 +1,45 @@
+{% assign source = include.content %}
+{% assign after_start = source | split: '<!-- hindi-start -->' %}
+{% assign after_start = after_start[1] %}
+{% assign before_end = after_start | split: '<!-- hindi-end -->' %}
+{% assign hindi_content = before_end[0] %}
+
+{% assign after_start = source | split: '<!-- skt-start -->' %}
+{% assign after_start = after_start[1] %}
+{% assign before_end = after_start | split: '<!-- skt-end -->' %}
+{% assign skt_content = before_end[0] %}
+
+{% assign after_start = source | split: '<!-- eng-start -->' %}
+{% assign after_start = after_start[1] %}
+{% assign before_end = after_start | split: '<!-- eng-end -->' %}
+{% assign eng_content = before_end[0] %}
+
+{% assign after_start = source | split: '<!-- notes-start -->' %}
+{% assign after_start = after_start[1] %}
+{% assign before_end = after_start | split: '<!-- notes-end -->' %}
+{% assign notes_content = before_end[0] %}
+
+<div class="skt" markdown="1">
+  {{ skt_content | markdownify }}
+</div>
+
+<div class="translation" markdown="1">
+  <h5>{{ page.question_text }}</h5>
+  <p/>
+
+  {{ eng_content | markdownify }}
+</div>
+
+{% if source contains '<!-- hindi-start -->' and source contains '<!-- hindi-end -->' %}
+<div class="hindi" markdown="1">
+  <h3>{{ page.question_text_hin }}</h3>
+  <p/>
+
+  {{ hindi_content | markdownify }}
+</div>
+{% endif %}
+
+{% if source contains '<!-- notes-start -->' and source contains '<!-- notes-end -->' %}
+  <h3><span class="skt">तिप्पणी</span></h3>
+  {{ notes_content | markdownify }}
+{% endif %}
