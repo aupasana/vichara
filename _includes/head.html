@@ -1,0 +1,80 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Select2 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+<!-- jQuery (Required for Select2) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Select2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sanscriptjs@0.0.1/sanscript.min.js"></script>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/gh/virtualvinodh/aksharamukha/aksharamukha-web-plugin/aksharamukha-v3.js?class=page-content&source=Devanagari&prelist=majorindic"> </script> -->
+
+<script>
+  // Helper to get cookie value
+  const getCookie = (name) => {
+    const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    return match ? match[2] : null;
+  };
+
+  // Check showTransliteration cookie
+  const allowTransliteration = getCookie('allowTransliteration') === 'true';
+
+  if (allowTransliteration) {
+    const script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/gh/virtualvinodh/aksharamukha/aksharamukha-web-plugin/aksharamukha-v3.js?class=page-content&source=Devanagari&prelist=majorindic";
+    document.head.appendChild(script);
+  }
+</script>
+
+<script>
+  document.addEventListener('keydown', function (e) {
+    if (document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+      if (e.key === '/' ) {
+        e.preventDefault();
+        window.location.href = '/terms?focus=1';
+      } else if (e.key.toLowerCase() === 'q') {
+      e.preventDefault();
+      history.back();
+      } else if (e.key === 'ArrowLeft') {
+        console.log("Attemtping to navigate left");
+        var prev = $('#prev');
+        if (prev.length && prev.attr('href')) {
+            window.location.href = prev.attr('href');
+        }
+      } else if (e.key === 'ArrowUp') {
+        console.log("Attempting to navigate up");
+        var prev = $('#parent');
+        if (prev.length && prev.attr('href')) {
+            window.location.href = prev.attr('href');
+        }
+      } else if (e.key === 'ArrowRight') {
+        console.log("Attempting to navigate right");
+        var prev = $('#next');
+        if (prev.length && prev.attr('href')) {
+            window.location.href = prev.attr('href');
+        }
+      }
+    }
+  });
+</script>
+
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
