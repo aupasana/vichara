@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<h2><span class="skt_span">{{ page.question_text_skt }}</span> {% if page.question_text %}({{ page.question_text }}){% endif %}</h2>
+
+{% include content_sections.html content=page.content %}
+{% include tags.html index_terms=page.index_terms link_terms=page.link_terms %}
+
