@@ -1,0 +1,9 @@
+{% assign avarta = include.avarta_num | plus: 0 %}
+
+{% assign b_section = site.data.sagara_sections 
+  | where_exp: "s", "avarta == s.start" %}
+{% for b_i in b_section %} 
+{% assign range = b_i.start | append: "-" | append: b_i.end %}
+<h3>आवर्ताः {% include to_devanagari_numbers.html text=range %} {{b_i.label }}</h3>
+{% endfor %}
+
