@@ -1,0 +1,12 @@
+    <div class="col-md-4">
+      <div class="card h-100" style="background-color: rgba(250, 235, 215, 0.502);">
+        <div class="card-head">
+          {% if include.number %}<img src="/assets/images/icons/{{include.number}}-solid.svg" class="icon-card"/>{% else %}&nbsp;&nbsp;{% endif %}
+          <img src="/assets/images/icons/{{include.icon}}-solid.svg" class="icon-card"/>
+        </div>
+        <div class="card-body">
+          <a href="{{include.link}}"><h5 class="card-title">{{include.title}}</h5></a>
+          <p class="card-text">{{include.description}}</p>
+        </div>
+      </div>
+    </div>

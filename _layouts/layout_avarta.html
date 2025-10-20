@@ -1,0 +1,19 @@
+---
+layout: layout_collection_nav
+parent: /sagara
+---
+<div class="skt" markdown=""1">
+
+{% include avarta_head.html avarta_num=page.avarta_num %}
+
+{% if page.skip_title != true %}
+<h2>{{ page.title | markdownify }}</h2>
+{% endif %}
+
+<div class="numbered-paragraphs">
+{{ content }}
+</div>
+
+{% include tags.html index_terms=page.index_terms link_terms=page.link_terms %}
+
+</div>

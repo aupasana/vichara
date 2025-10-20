@@ -1,0 +1,8 @@
+{% if include.index_terms and include.index_terms.size > 0 %}
+<div class="tags">
+# – ({% for term in include.index_terms %}
+        <a href="/terms#{{ term }}">{{ term }}</a> 
+    {% endfor %})
+</div>
+{% endif %}
+
