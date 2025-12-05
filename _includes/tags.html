@@ -1,0 +1,18 @@
+{% if include.index_terms and include.index_terms.size > 0 %}
+<div class="tags skt">
+<img src="/assets/images/icons/hashtag-solid.svg" class="icon-card" /> 
+    {% for term in include.index_terms %}
+        <a href="/terms#{{ term }}">{{ term }}</a> 
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if include.link_terms and include.link_terms.size > 0 %}
+<div class="tags skt">
+<img src="/assets/images/icons/link-solid.svg" class="icon-card" /> 
+    {% for term in include.link_terms %}
+        <a href="/terms#{{ term }}">{{ term }}</a> 
+    {% endfor %}
+</div>
+{% endif %}
+

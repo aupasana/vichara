@@ -1,0 +1,38 @@
+---
+layout: layout_collection_nav
+parent: /tattvabodha
+---
+
+<div class="skt">
+<h1>तत्त्वबोधः {{page.section_number}} - {{page.section_title_skt}}<br/><span class="translation-inline">{{page.section_title}}</span>
+</h1>
+</div>
+{{ content }}
+
+{% if page.questions %}
+
+  {% for q_id in page.questions %}
+    {% assign question_item = site.tb_question | where: "tb_question_id", q_id | first %}
+
+    {% if question_item %}
+      <div class="item_question" id="{{question_item.section_number}}.{{ question_item.question_number }}" ><img src="/assets/images/icons/file-regular.svg" class="icon-card"/> 
+        <span class="question_number"><a href="{{ question_item.url }}">{{question_item.section_number}}.{{ question_item.question_number }}</a></span>
+        <span class="skt_span"> &nbsp; {{ question_item.question_text_skt }} </span>
+        <br/><span class="item_question_eng">{{ question_item.question_text }}<br/></span>
+      </div>    
+      <p/>
+
+  {% include content_sections.html content=question_item.content %}
+  {% include tags.html index_terms=question_item.index_terms link_terms=question_item.link_terms %}
+
+
+
+    {% else %}
+        <pre>Missing question {{q_id}}</pre>
+    {% endif %}
+
+    <p/>
+  {% endfor %}
+
+{% endif %}
+
