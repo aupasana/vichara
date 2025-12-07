@@ -1,0 +1,35 @@
+---
+layout: layout_collection_nav
+---
+
+<h2>kalā {{page.kala_number}} - {{ page.description }} ( <span class="skt_span">{{ page.description_skt }}</span> )</h2>
+
+{{ content }}
+
+{% if page.sections %}
+
+  {% for section_id in page.sections %}
+      {% assign section_item = site.chandra_section | where: "kala_section_id", section_id | first %}
+      {% if section_item and section_item.questions %}
+        <a href="{{ section_item.url }}" id="sec{{page.kala_number}}.{{section_item.section_number}}">Part {{section_item.section_number}} - {{ section_item.section_title }} - <span class="skt_span">{{ section_item.section_title_skt }}</span></a><p/>
+        <ul>
+        {% for question_id in section_item.questions %}
+          {% assign question_item = site.chandra_question | where: "kala_question_id", question_id | first %}
+
+          {% if question_item %}
+            <li><a href="{{question_item.url}}">{{question_item.kala_number}}.{{question_item.question_number}}</a>: {{question_item.question_text}}.
+            <span class="skt_span">{{question_item.question_text_skt}}</span></li>
+          {% else %}
+            <li>Missing question: {{ question_id }}</li>          
+          {% endif %}
+          
+        {% endfor %}
+        </ul>
+      {% elsif section_item %}
+        Part {{section_item.section_number}} - {{ section_item.section_title }} - <span class="skt_span">{{ section_item.section_title_skt }}</span><p/><p/>
+      {% else %}
+        <li>Missing section: {{ section_id }}</li>
+      {% endif %}
+    {% endfor %}
+{% endif %}
+
