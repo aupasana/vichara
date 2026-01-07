@@ -1,0 +1,911 @@
+
+
+
+
+
+
+
+﻿<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="viewport" content="width=device-width" />
+<link rel="shortcut icon" href="https://www.gitasupersite.iitk.ac.in/sites/default/files/bhagwadgita_1.png" type="image/png" />
+<title>श्रीमद् भगवद्गीता  | Gita Supersite</title>
+<link type="text/css" rel="stylesheet" href="https://www.gitasupersite.iitk.ac.in/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.gitasupersite.iitk.ac.in/sites/default/files/css/css_mxbvRAV0_YoXwGCXbsQzCkegc1pXHICzfd8PPQD9YE4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.gitasupersite.iitk.ac.in/sites/default/files/css/css_5pO73qc-z-zv4xoH8aIAp_Prq1thKg1qz9beR7eKaZg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.gitasupersite.iitk.ac.in/sites/default/files/css/css_1HBEortUQPL2E0ZBEej-skzaiX6YTF-6UkqBhxyemDg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.gitasupersite.iitk.ac.in/sites/default/files/css/css_54tszYKgXDSbhHDPFLuuwyvEZaz3U4-Pq2nyroeqoMY.css" media="all" />
+<script type="text/javascript" src="https://www.gitasupersite.iitk.ac.in/sites/default/files/js/js_YD9ro0PAqY25gGWrTki6TjRUG8TdokmmxjfqpNNfzVU.js"></script>
+<script type="text/javascript" src="https://www.gitasupersite.iitk.ac.in/sites/default/files/js/js_OM4zzmhBAAw-1RevkNW13W-MReaMplFhUY7V8RwgHZo.js"></script>
+<script type="text/javascript" src="https://www.gitasupersite.iitk.ac.in/sites/default/files/js/js__fp1tO9jap8WIFV5cao2NNcWfHGd85h_XHU6whaZInE.js"></script>
+<script type="text/javascript" src="https://www.gitasupersite.iitk.ac.in/sites/default/files/googleanalytics/js?syly0q"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-HGJGDFH6R2", {"groups":"default"});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.gitasupersite.iitk.ac.in/sites/default/files/js/js_eQQOuOKMfzf-gkyw9hmVXIDnsIR6qJlVcCKsSRtR6H0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"software","theme_token":"97mHwRlg6EWyzrw8SDLRud9-l4D-48WhRUveETecr6Q","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.position-1.13.0-backport.js":1,"misc\/ui\/jquery.ui.autocomplete.min.js":1,"misc\/form-single-submit.js":1,"misc\/form.js":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete_jqueryui.js":1,"sites\/all\/modules\/indic_script\/kanni\/kanni.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/tamil.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/malayalam.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/hindi.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/bengali.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/gujarati.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/kannada.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/oriya.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/punjabi.js":1,"sites\/all\/modules\/indic_script\/kanni\/lang\/telugu.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/ctools\/js\/auto-submit.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"https:\/\/www.gitasupersite.iitk.ac.in\/sites\/default\/files\/googleanalytics\/js?syly0q":1,"0":1,"sites\/all\/themes\/software-responsive-theme\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/gitasites\/gitasites.css":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/gitasites\/srimad.css":1,"sites\/all\/themes\/software-responsive-theme\/css\/font-awesome.css":1,"sites\/all\/themes\/software-responsive-theme\/css\/style.css":1,"sites\/all\/themes\/software-responsive-theme\/css\/media.css":1}},"urlIsAjaxTrusted":{"\/srimad":true,"\/srimad?language=dv\u0026field_chapter_value=1\u0026field_nsutra_value=1\u0026scsri=1\u0026choose=1":true},"apachesolr_autocomplete":{"forms":{"search-block-form":{"id":"search-block-form","path":"\/apachesolr_autocomplete_callback\/apachesolr_search_page%3Acore_search"}}},"googleanalytics":{"account":["G-HGJGDFH6R2"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-srimad">
+    
+<div id="header_wrapper">
+
+  <div class="user-menu-wrapper clearfix">
+    <div class="full-wrap">
+          </div>
+  </div>
+
+  <div id="inner_header_wrapper">
+
+    <header id="header" role="banner">
+
+      <div class="top_left">
+
+                  <div id="logo">
+            <a href="/" title="Home">
+              <img src="https://www.gitasupersite.iitk.ac.in/sites/default/files/supergita.png"/>
+            </a>
+          </div>
+        
+        <h1 id="site-title">
+          <a href="/" title="Home"></a>
+          <div id="site-description"></div>
+        </h1>
+      </div>
+
+      <div class="top_right">
+        <!-- Search -->
+        <div class="region region-search">
+  <div id="block-search-form" class="block block-search">
+
+      
+  <div class="content">
+    <form action="/srimad?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1&amp;scsri=1&amp;choose=1" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." class="apachesolr-autocomplete kanni-enabled form-text" data-apachesolr-autocomplete-id="search-block-form" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-59WfnmxjrYcnH7XXWPBI4LgwvnDrsOnD__iORsTYsds" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+      </div>
+    <div class="clear"></div>
+    </header>
+
+  </div>
+
+  <div class="menu_wrapper">
+    <nav id="main-menu"  role="navigation">
+      <a class="nav-toggle" href="#">Navigation</a>
+      <div class="menu-navigation-container">
+        <ul class="menu"><li class="first leaf"><a href="/" title="">Home</a></li>
+<li class="leaf"><a href="/about">About Website</a></li>
+<li class="leaf"><a href="/history">History</a></li>
+<li class="leaf"><a href="/team">Our Team</a></li>
+<li class="expanded active-trail"><a href="/" title="" class="active-trail">Quick Links</a><ul class="menu"><li class="first expanded active-trail"><a href="/srimad?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1" title="" class="active-trail active">Srimad BhagavadGita</a><ul class="menu"><li class="first leaf"><a href="/srimad/intro">Introduction</a></li>
+<li class="leaf active-trail"><a href="/srimad?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1" title="" class="active-trail active">Content</a></li>
+<li class="leaf"><a href="/srimadch" title="">Chapterwise Shlokas</a></li>
+<li class="leaf"><a href="/srimad/links">Related Links</a></li>
+<li class="leaf"><a href="/srimad/texts">Text Details</a></li>
+<li class="last leaf"><a href="/srimad/acknowledgement">Acknowledgement</a></li>
+</ul></li>
+<li class="expanded"><a href="/minigita/texts" title="">Other Gitas</a><ul class="menu"><li class="first leaf"><a href="/minigita/ashtavakra?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1" title="">Ashtavakra Gita </a></li>
+<li class="leaf"><a href="/minigita/avadhuta?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1" title="">Avadhuta Gita</a></li>
+<li class="leaf"><a href="/minigita/kapila?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1" title="">Kapila Gita</a></li>
+<li class="leaf"><a href="/minigita/sriram?language=dv&amp;field_nsutra_value=1" title="">Sriram Gita</a></li>
+<li class="leaf"><a href="/minigita/sruti?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1" title="">Sruti Gita</a></li>
+<li class="leaf"><a href="/minigita/uddhava?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1" title="">Uddhava Gita</a></li>
+<li class="last leaf"><a href="/minigita/vibhishana?language=dv&amp;field_nsutra_value=1" title="">Vibhishana Gita</a></li>
+</ul></li>
+<li class="expanded"><a href="/brahmasutra_content?language=dv&amp;field_chapter_value=1&amp;field_quarter_value=1&amp;field_nsutra_value=0" title="">BrahmaSutra (ब्रह्मसूत्र)</a><ul class="menu"><li class="first leaf"><a href="/bs_home">Welcome</a></li>
+<li class="leaf"><a href="/node/2">About Brahma Sutra</a></li>
+<li class="last leaf"><a href="/brahmasutra_content?language=dv&amp;field_chapter_value=1&amp;field_quarter_value=1&amp;field_nsutra_value=0" title="">Content</a></li>
+</ul></li>
+<li class="last expanded"><a href="/yogasutra_content?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1&amp;enable_sutra=1&amp;enable_bhaysa=1&amp;enable_vritti=1" title="">YogaSutra</a><ul class="menu"><li class="first last leaf"><a href="/yogasutra_content?language=dv&amp;field_chapter_value=1&amp;field_nsutra_value=1&amp;enable_sutra=1&amp;enable_bhaysa=1&amp;enable_vritti=1" title="">Content</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded"><a href="/" title="">2 Book View</a><ul class="menu"><li class="first leaf"><a href="/srimad/bookview" title="">Srimad BhagavadGita </a></li>
+<li class="leaf"><a href="/bsbkv" title="">BrahmaSutra</a></li>
+<li class="last leaf"><a href="/ysbkv" title="">YogaSutra</a></li>
+</ul></li>
+<li class="leaf"><a href="/contact" title="">Contact</a></li>
+<li class="last leaf"><a href="/user" title="">Login</a></li>
+</ul>      </div>
+      <div class="clear"></div>
+    </nav><!-- end main-menu -->
+  </div>
+
+</div>
+
+
+
+  <div id="container">
+    <div class="container-wrap">
+      <div class="content-sidebar-wrap">
+        <div id="content">
+                    <section id="post-content" role="main">
+                                    <h1 class="page-title">श्रीमद् भगवद्गीता </h1>                                                            <div class="region region-content">
+  <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="view view-srimad view-id-srimad view-display-id-page view-dom-id-cb1798cc54c07dc36446c74414b31d94">
+        
+      <div class="view-filters">
+      <form class="ctools-auto-submit-full-form" action="/srimad" method="get" id="views-exposed-form-srimad-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-language-wrapper" class="views-exposed-widget views-widget-filter-language">
+                  <label for="edit-language">
+            Script          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-language">
+ <select id="edit-language" name="language" class="form-select required"><option value="as">Assamese</option><option value="bn">Bengali</option><option value="dv" selected="selected">Devanagari</option><option value="gu">Gujarati</option><option value="pa">Gurmukhi</option><option value="kn">Kannada</option><option value="ml">Malayalam</option><option value="or">Odia</option><option value="ro">Roman</option><option value="ta">Tamil</option><option value="te">Telugu</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-chapter-value-wrapper" class="views-exposed-widget views-widget-filter-field_chapter_value">
+                  <label for="edit-field-chapter-value">
+            Chapter          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-chapter-value">
+ <select id="edit-field-chapter-value" name="field_chapter_value" size="1" class="form-select required"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-nsutra-value-wrapper" class="views-exposed-widget views-widget-filter-field_nsutra_value">
+                  <label for="edit-field-nsutra-value">
+            Shloka          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-nsutra-value">
+ <select id="edit-field-nsutra-value" name="field_nsutra_value" size="1" class="form-select required"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option></select>
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input class="ctools-use-ajax ctools-auto-submit-click js-hide form-submit" type="submit" id="edit-submit-srimad" value="Apply" /><div id="edit-navigation" class="form-item form-type-item">
+ <p class = 'navigation_block'>
+	<a href='srimad?scsri=1&choose=1&&language=dv&field_chapter_value=18&field_nsutra_value=1'>‹‹</a>
+	<a href='srimad?scsri=1&choose=1&&language=dv&field_chapter_value=18&field_nsutra_value=78'>‹</a>
+	<a href='srimad?scsri=1&choose=1&&language=dv&field_chapter_value=1&field_nsutra_value=2'>›</a>
+	<a href='srimad?scsri=1&choose=1&&language=dv&field_chapter_value=2&field_nsutra_value=1'>››</a>
+	</p>
+</div>
+<fieldset class="collapsible collapsed collapsible form-wrapper" id="edit-audio-field"><legend><span class="fieldset-legend"><b>Audio</b></span></legend><div class="fieldset-wrapper"><div class="form-item form-type-checkbox form-item-show-mool">
+ <input type="checkbox" id="edit-show-mool" name="show_mool" value="1" class="form-checkbox" />  <label class="option" for="edit-show-mool">Mool Shloka [ by<em> Swami Brahmananda</em> ] </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-show-purohit">
+ <input type="checkbox" id="edit-show-purohit" name="show_purohit" value="1" class="form-checkbox" />  <label class="option" for="edit-show-purohit">English Translation of Shri Purohit Swami [ by<em> T.Archna </em>] </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-show-tej">
+ <input type="checkbox" id="edit-show-tej" name="show_tej" value="1" class="form-checkbox" />  <label class="option" for="edit-show-tej">Hindi Translation By Swami Tejomayananda [ by<em> T.Archna </em>] </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-enable-autoplay">
+ <input style="float:left;" type="checkbox" id="edit-enable-autoplay" name="enable_autoplay" value="1" class="form-checkbox" />  <label class="option" for="edit-enable-autoplay">Auto Play </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-enable-contplay">
+ <input type="checkbox" id="edit-enable-contplay" name="enable_contplay" value="1" class="form-checkbox" />  <label class="option" for="edit-enable-contplay">Continuous Play </label>
+
+</div>
+<div id="edit-audio" class="form-item form-type-item">
+ 
+</div>
+</div></fieldset>
+<fieldset class="ctools-auto-submit-exclude collapsible collapsed form-wrapper" id="edit-textoptions"><legend><span class="fieldset-legend"><b>Translations and Commentaries</b></span></legend><div class="fieldset-wrapper"><div class="form-item form-type-checkbox form-item-htrskd">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-htrskd" name="htrskd" value="1" />  <label class="option" for="edit-htrskd">Hindi Translation By Swami Ramsukhdas </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-httyn">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-httyn" name="httyn" value="1" />  <label class="option" for="edit-httyn">Hindi Translation By Swami Tejomayananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-htshg">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-htshg" name="htshg" value="1" />  <label class="option" for="edit-htshg">Hindi Translation Of Sri Shankaracharya's Sanskrit Commentary By Sri Harikrishnadas Goenka </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scsh">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scsh" name="scsh" value="1" />  <label class="option" for="edit-scsh">Sanskrit Commentary By Sri Shankaracharya </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-hcchi">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-hcchi" name="hcchi" value="1" />  <label class="option" for="edit-hcchi">Hindi Commentary By Swami Chinmayananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-hcrskd">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-hcrskd" name="hcrskd" value="1" />  <label class="option" for="edit-hcrskd">Hindi Commentary By Swami Ramsukhdas </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scang">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scang" name="scang" value="1" />  <label class="option" for="edit-scang">Sanskrit Commentary By Sri Abhinavgupta </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scram">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scram" name="scram" value="1" />  <label class="option" for="edit-scram">Sanskrit Commentary By Sri Ramanujacharya </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scanand">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scanand" name="scanand" value="1" />  <label class="option" for="edit-scanand">Sanskrit Commentary By Sri Anandgiri </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scjaya">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scjaya" name="scjaya" value="1" />  <label class="option" for="edit-scjaya">Sanskrit Commentary By Sri Jayatirtha </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scmad">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scmad" name="scmad" value="1" />  <label class="option" for="edit-scmad">Sanskrit Commentary By Sri Madhvacharya </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scval">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scval" name="scval" value="1" />  <label class="option" for="edit-scval">Sanskrit Commentary By Sri Vallabhacharya </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scms">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scms" name="scms" value="1" />  <label class="option" for="edit-scms">Sanskrit Commentary By Sri Madhusudan Saraswati </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scsri">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scsri" name="scsri" value="1" checked="checked" />  <label class="option" for="edit-scsri">Sanskrit Commentary By Sri Sridhara Swami </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scvv">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scvv" name="scvv" value="1" />  <label class="option" for="edit-scvv">Sanskrit Commentary By Sri Vedantadeshikacharya Venkatanatha </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scpur">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scpur" name="scpur" value="1" />  <label class="option" for="edit-scpur">Sanskrit Commentary By Sri Purushottamji </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scneel">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scneel" name="scneel" value="1" />  <label class="option" for="edit-scneel">Sanskrit Commentary By Sri Neelkanth </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-scdhan">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-scdhan" name="scdhan" value="1" />  <label class="option" for="edit-scdhan">Sanskrit Commentary By Sri Dhanpati </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-ecsiva">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-ecsiva" name="ecsiva" value="1" />  <label class="option" for="edit-ecsiva">English Commentary By Swami Sivananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-etsiva">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-etsiva" name="etsiva" value="1" />  <label class="option" for="edit-etsiva">English Translation By Swami Sivananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-etpurohit">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-etpurohit" name="etpurohit" value="1" />  <label class="option" for="edit-etpurohit">English Translation By Purohit Swami </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-etgb">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-etgb" name="etgb" value="1" />  <label class="option" for="edit-etgb">English Translation By Swami Gambirananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-setgb">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-setgb" name="setgb" value="1" />  <label class="option" for="edit-setgb">English Translation Of Sri Shankaracharya By Swami Gambirananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-etssa">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-etssa" name="etssa" value="1" />  <label class="option" for="edit-etssa">English Translation By Dr. S. Sankaranarayan </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-etassa">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-etassa" name="etassa" value="1" />  <label class="option" for="edit-etassa">English Translation of Abhinavgupta's  Sanskrit Commentary By Dr. S. Sankaranarayan </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-etradi">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-etradi" name="etradi" value="1" />  <label class="option" for="edit-etradi">English Translation of Ramanujacharya's  Sanskrit Commentary By Swami Adidevananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-etadi">
+ <input class="ctools-auto-submit-exclude form-checkbox" type="checkbox" id="edit-etadi" name="etadi" value="1" />  <label class="option" for="edit-etadi">English Translation By Swami Adidevananda </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-choose">
+ <input type="checkbox" id="edit-choose" name="choose" value="1" checked="checked" class="form-checkbox" />  <label class="option" for="edit-choose">Display Selected Translations </label>
+
+</div>
+</div></fieldset>
+    </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-content">
+      <div class="views-table cols-0"  >
+   
+<div class = 'custom_display_even'>
+      <div >
+                                        <div class="views-field views-field-body"                       ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿
+<p align="center"><font color="#2c44bd" size="4px"><b>मूल श्लोकः</b></font></p>
+
+<p align="center"><font size="3px">धृतराष्ट्र उवाच<br />
+<br />
+धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।<br />
+<br />
+मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय।।1.1।।</font><br />
+&nbsp;</p>
+
+ 
+          </div>
+                                            </div>
+    </div>
+
+<div class = 'custom_display_odd'>
+      <div >
+                                                            <div class="views-field views-field-field-scsri"                       <p align = 'center'><font color = '#2c44bd' size = '4px'><b>Sanskrit Commentary By Sri Sridhara Swami</b></font></p><p align = 'justify'><font size = '3px'> <b>।।1.1।।</b> इह खलु सकललोकहितावतारः सकलवन्दितचरणः परमकारुणिको भगवान् देवकीनन्दनस्तत्त्वाज्ञानविजृम्भितशोकमोहविभ्रंशितविवेकतया निजधर्मत्यागपरधर्माभिसंधिपरमर्जुनं धर्मज्ञानरहस्योपदेशप्लवेन तस्माच्छोकमोहसागरादुद्दधार। तमेव भगवदुपदिष्टमर्थं कृष्णद्वैपायनः सप्तभिः श्लोकशतैरुपनिबबन्ध। तत्र च प्रायशः श्रीकृष्णमुखनिःसृतानेव श्लोकानलिखत् कांश्चित्तत्संगतये स्वयं व्यरचयत्। यथोक्तं गीतामाहात्म्ये  गीता सुगीता कर्तव्या किमन्यैः शास्त्रविस्तरैः। या स्वयं पद्मनाभस्य मुखपद्माद्विनिःसृता।। इति। तत्र तावद्धर्मक्षेत्र इत्यादिना <br><br>विषीदन्निदमब्रवीदित्यन्तेन ग्रन्थेन श्रीकृष्णार्जुनसंवादप्रस्तावाय कथा निरूप्यते <b>  धर्मक्षेत्र इति।</b> भो संजय धर्मभूमौ कुरुक्षेत्रे मत्पुत्राः पाण्डुपुत्राश्च युयुत्सवो योद्धुमिच्छन्तः समवेता मिलिताः सन्तः किं कृतवन्तः।<br><br></font></p>
+          </div>
+                        </div>
+    </div>
+
+
+
+</div>
+
+<script type="text/javascript">
+    function playAudio(){
+        if(document.getElementById('slkaudio') != null)
+            document.getElementById('slkaudio').play();
+        else if (document.getElementById('purohitAudio') != null)
+            document.getElementById('purohitAudio').play();
+        else if (document.getElementById('tejAudio') != null)
+            document.getElementById('tejAudio').play();
+    }
+    if(document.getElementById("edit-enable-autoplay").checked || document.getElementById("edit-enable-contplay").checked)
+    	playAudio();
+    function playNext(id, contPlay = false){
+        switch(id){
+            case 'slkaudio':
+                if (document.getElementById('purohitAudio') != null)
+                    document.getElementById('purohitAudio').play();
+                else if (document.getElementById('tejAudio') != null)
+                    document.getElementById('tejAudio').play();
+                else if(contPlay)
+                    nextAudio();
+		break;
+            case 'purohitAudio':
+                if (document.getElementById('tejAudio') != null)
+                    document.getElementById('tejAudio').play();
+                else if(contPlay)
+                    nextAudio();
+                break;
+            case 'tejAudio':
+                if(contPlay)
+                    nextAudio();
+                break;
+        }
+    }
+
+    function nextAudio(){
+        var regex = /[?&]([^=#]+)=([^&#]*)/g;
+        var url = window.location.href;
+        var params = {};
+        var match;
+        var args = '&';
+        while(match = regex.exec(url)) {
+            params[match[1]] = match[2];
+        }
+        // console.log(params);
+        var lang = document.getElementById('edit-language').value;
+        var chapter = parseInt(document.getElementById('edit-field-chapter-value').value);
+        var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value);
+        var next_sloka;
+        var max_sloka;
+        if(chapter == 1) max_sloka = 47;
+        else if (chapter == 2) max_sloka = 72;
+        else if (chapter == 3) max_sloka = 43;
+        else if (chapter == 4) max_sloka = 42;
+        else if (chapter == 5) max_sloka = 29;
+        else if (chapter == 6) max_sloka = 47;
+        else if (chapter == 7) max_sloka = 30;
+        else if (chapter == 8) max_sloka = 28;
+        else if (chapter == 9) max_sloka = 34;
+        else if (chapter == 10) max_sloka = 42;
+        else if (chapter == 11) max_sloka = 55;
+        else if (chapter == 12) max_sloka = 20;
+        else if (chapter == 13) max_sloka = 35;
+        else if (chapter == 14) max_sloka = 27;
+        else if (chapter == 15) max_sloka = 20;
+        else if (chapter == 16) max_sloka = 24;
+        else if (chapter == 17) max_sloka = 28;
+        else if (chapter == 18) max_sloka = 78;
+        switch(chapter){
+            case 1:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 2;
+                    next_sloka = 1;
+                }
+                break;
+            case 2:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 3;
+                    next_sloka = 1;
+                }
+                break;
+            case 3:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 4;
+                    next_sloka = 1;
+                }
+                break;
+            case 4:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 5;
+                    next_sloka = 1;
+                }
+                break;
+            case 5:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 6;
+                    next_sloka = 1;
+                }
+                break;
+            case 6:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 7;
+                    next_sloka = 1;
+                }
+                break;
+            case 7:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 8;
+                    next_sloka = 1;
+                }
+                break;
+            case 8:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 9;
+                    next_sloka = 1;
+                }
+                break;
+            case 9:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 10;
+                    next_sloka = 1;
+                }
+                break;
+            case 10:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 11;
+                    next_sloka = 1;
+                }
+                break;
+            case 11:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 12;
+                    next_sloka = 1;
+                }
+                break;
+            case 12:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 13;
+                    next_sloka = 1;
+                }
+                break;
+            case 13:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 14;
+                    next_sloka = 1;
+                }
+                break;
+            case 14:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 15;
+                    next_sloka = 1;
+                }
+                break;
+            case 15:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 16;
+                    next_sloka = 1;
+                }
+                break;
+            case 16:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 17;
+                    next_sloka = 1;
+                }
+                break;
+            case 17:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 18;
+                    next_sloka = 1;
+                }
+                break;
+            case 18:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 1;
+                    next_sloka = 1;
+                }
+                break;
+        }
+        for(parameter in params){
+            if(parameter != 'field_chapter_value' && parameter != 'field_nsutra_value' && parameter != 'choose'){
+                if(args != '&') args += '&'+parameter+"="+params[parameter];
+                else args += parameter+"="+params[parameter];
+            }
+        }
+        window.location.href = "srimad?field_chapter_value="+chapter+"&field_nsutra_value="+next_sloka+args;
+    }
+</script>
+    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-srimad view-id-srimad view-display-id-attachment_5">
+        
+  
+  
+      <div class="view-content">
+      <div class="views-table cols-0"  >
+   
+<div class = 'custom_display_even'>
+  </div>
+
+<div class = 'custom_display_odd'>
+  </div>
+
+
+
+</div>
+
+<script type="text/javascript">
+    function playAudio(){
+        if(document.getElementById('slkaudio') != null)
+            document.getElementById('slkaudio').play();
+        else if (document.getElementById('purohitAudio') != null)
+            document.getElementById('purohitAudio').play();
+        else if (document.getElementById('tejAudio') != null)
+            document.getElementById('tejAudio').play();
+    }
+    if(document.getElementById("edit-enable-autoplay").checked || document.getElementById("edit-enable-contplay").checked)
+    	playAudio();
+    function playNext(id, contPlay = false){
+        switch(id){
+            case 'slkaudio':
+                if (document.getElementById('purohitAudio') != null)
+                    document.getElementById('purohitAudio').play();
+                else if (document.getElementById('tejAudio') != null)
+                    document.getElementById('tejAudio').play();
+                else if(contPlay)
+                    nextAudio();
+		break;
+            case 'purohitAudio':
+                if (document.getElementById('tejAudio') != null)
+                    document.getElementById('tejAudio').play();
+                else if(contPlay)
+                    nextAudio();
+                break;
+            case 'tejAudio':
+                if(contPlay)
+                    nextAudio();
+                break;
+        }
+    }
+
+    function nextAudio(){
+        var regex = /[?&]([^=#]+)=([^&#]*)/g;
+        var url = window.location.href;
+        var params = {};
+        var match;
+        var args = '&';
+        while(match = regex.exec(url)) {
+            params[match[1]] = match[2];
+        }
+        // console.log(params);
+        var lang = document.getElementById('edit-language').value;
+        var chapter = parseInt(document.getElementById('edit-field-chapter-value').value);
+        var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value);
+        var next_sloka;
+        var max_sloka;
+        if(chapter == 1) max_sloka = 47;
+        else if (chapter == 2) max_sloka = 72;
+        else if (chapter == 3) max_sloka = 43;
+        else if (chapter == 4) max_sloka = 42;
+        else if (chapter == 5) max_sloka = 29;
+        else if (chapter == 6) max_sloka = 47;
+        else if (chapter == 7) max_sloka = 30;
+        else if (chapter == 8) max_sloka = 28;
+        else if (chapter == 9) max_sloka = 34;
+        else if (chapter == 10) max_sloka = 42;
+        else if (chapter == 11) max_sloka = 55;
+        else if (chapter == 12) max_sloka = 20;
+        else if (chapter == 13) max_sloka = 35;
+        else if (chapter == 14) max_sloka = 27;
+        else if (chapter == 15) max_sloka = 20;
+        else if (chapter == 16) max_sloka = 24;
+        else if (chapter == 17) max_sloka = 28;
+        else if (chapter == 18) max_sloka = 78;
+        switch(chapter){
+            case 1:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 2;
+                    next_sloka = 1;
+                }
+                break;
+            case 2:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 3;
+                    next_sloka = 1;
+                }
+                break;
+            case 3:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 4;
+                    next_sloka = 1;
+                }
+                break;
+            case 4:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 5;
+                    next_sloka = 1;
+                }
+                break;
+            case 5:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 6;
+                    next_sloka = 1;
+                }
+                break;
+            case 6:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 7;
+                    next_sloka = 1;
+                }
+                break;
+            case 7:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 8;
+                    next_sloka = 1;
+                }
+                break;
+            case 8:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 9;
+                    next_sloka = 1;
+                }
+                break;
+            case 9:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 10;
+                    next_sloka = 1;
+                }
+                break;
+            case 10:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 11;
+                    next_sloka = 1;
+                }
+                break;
+            case 11:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 12;
+                    next_sloka = 1;
+                }
+                break;
+            case 12:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 13;
+                    next_sloka = 1;
+                }
+                break;
+            case 13:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 14;
+                    next_sloka = 1;
+                }
+                break;
+            case 14:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 15;
+                    next_sloka = 1;
+                }
+                break;
+            case 15:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 16;
+                    next_sloka = 1;
+                }
+                break;
+            case 16:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 17;
+                    next_sloka = 1;
+                }
+                break;
+            case 17:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 18;
+                    next_sloka = 1;
+                }
+                break;
+            case 18:
+                if(sloka >= 1 && sloka < max_sloka){
+                    next_sloka = sloka + 1;
+                }
+                else {
+                    chapter = 1;
+                    next_sloka = 1;
+                }
+                break;
+        }
+        for(parameter in params){
+            if(parameter != 'field_chapter_value' && parameter != 'field_nsutra_value' && parameter != 'choose'){
+                if(args != '&') args += '&'+parameter+"="+params[parameter];
+                else args += parameter+"="+params[parameter];
+            }
+        }
+        window.location.href = "srimad?field_chapter_value="+chapter+"&field_nsutra_value="+next_sloka+args;
+    }
+</script>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+          </section> <!-- /#main -->
+        </div>
+      
+              
+        </div>
+
+        
+        
+    </div>
+</div>
+
+<div id="footer">
+
+  <div id="footer_wrapper">
+      </div>
+  
+  <div class="footer_credit">
+
+  <!-- Social Links -->
+        
+    <div id="copyright">
+      <p class="copyright">Copyright &copy; 2025,  </p> <p class="credits"> Design by  <a href="http://www.zymphonies.com/">Zymphonies</a></p>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,33 @@
+---
+layout: layout_collection_nav
+parent: /chandra
+---
+
+<span class="skt">
+  <h1>
+  <a href="/chandra/kala/{{page.kala_number}}#sec{{page.kala_number}}.{{page.section_number}}">कला {{page.kala_number}}.{{page.section_number}}</a> - {{page.section_title_skt}}
+  <br/>{{page.section_title}}
+</h1>
+</span>
+{{ content }}
+
+{% if page.questions %}
+
+  {% for q_id in page.questions %}
+    {% assign question_item = site.chandra_question | where: "kala_question_id", q_id | first %}
+
+        <p/>
+        {% if question_item %}
+          <a href="{{question_item.url}}">{{question_item.kala_number}}.{{question_item.question_number}}: <span class="skt">{{question_item.question_text_skt}}</span></a>
+          <br/>{{question_item.question_text}}.
+          <br/>
+        {% else %}
+          <li>Missing question: {{ question_id }}</li>          
+        {% endif %}
+        
+        <p/><hr/>
+
+  {% endfor %}
+
+{% endif %}
+

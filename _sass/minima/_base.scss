@@ -1,0 +1,375 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.skt {
+  font: $skt-font-weight #{$skt-font-size}/#{$skt-line-height} $skt-font-family;
+  margin-bottom: 1rem;
+  // font-family: $skt-font-family;
+  // font-size: $skt-font-size;
+}
+
+.hindi {
+  // font-style: italic;
+  font-size: 1.4rem;
+  background-color: #faebd725;
+ font: $skt-font-weight #{$skt-font-size}/#{$skt-line-height} $skt-font-family;
+  padding-bottom: 1rem;
+ }
+
+.translation{
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.mulam {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed grey;
+
+}
+
+.skt strong {
+  font-weight: bold; /* optional, since <b> is bold by default */
+  // font-size: 1.6rem;
+  color: darkblue;
+  /* Add any additional styles here */
+}
+
+.footnote strong {
+  font-weight: bold; /* optional, since <b> is bold by default */
+  // font-size: 1.6rem;
+  color:darkblue;
+  /* Add any additional styles here */
+}
+
+.nested-inline {
+  border-left: 1px solid black;
+  padding-left: 5px;
+}
+
+/* Colors for different levels */
+.indent-1 { border-left: 1.5px dashed #666; }
+.indent-2 { border-left: 1.5px solid #bbb; }
+.indent-3 { border-left: 1px dashed #666; }
+.indent-4 { border-left: 1px dotted #666; }
+.indent-5 { border-left: 1px dashed #bbb; }
+.indent-6 { border-left: 1px dotted #bbb; }
+
+#aksharamukha-navbar {
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  left: auto !important;
+  width: 150px !important;      /* or 50%, if you prefer */
+  z-index: 9999 !important;
+  background-color: white !important;
+  padding: 0.5rem !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.translation-inline {
+  margin-bottom: 1rem;
+  font-size: .6em;
+  font-family: 'Noto Sans';
+}
+
+.skt_span {
+  font-family: "Adishila";
+  font-size: 110%;
+}
+
+.chandra_part_span {
+  font-size:85%;
+}
+
+.mangala {
+  font: $skt-font-weight #{$skt-font-size}/#{$skt-line-height} $skt-font-family;
+  text-align: center;
+}
+
+.item_question, .diagram_title {
+  font-size: 1.5rem;
+  margin-top: .2rem;
+  margin-bottom: .5rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border: 1px dashed grey;
+}
+
+.subsection_header {
+  font-family: "Adishila";
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  text-decoration: underline; 
+}
+
+.kesari {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  // border-top: .75rem solid #faebd780;
+  // background-color: #faebd700;
+}
+
+.footnote {
+  font-size: .85em;
+  // font-style: italic;
+  border-left: 1px dashed black;
+  padding-left: 30px;
+}
+
+.tika {
+  border-left: 1px dashed black;
+  padding-left: 30px;
+}
+
+.tika-other {
+  border-left: 1px double black;
+  padding-left: 30px;
+}
+
+.tags {
+  font-size: 1.25rem;
+  font-style: italic;
+  // border-left: 1px dashed black;
+  // padding-left: 30px;
+}
+
+.kesari-image{
+  // background-color: #faebd780;
+  height: 150;
+  padding-right: 12px;
+  margin-right: 20px;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit * 0.5;
+  margin-top: $spacing-unit * 0.5;
+}
+
+/**
+ * `main` element
+ */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
+
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $grey-color;
+  border-left: 4px solid $grey-color-light;
+  padding-left: $spacing-unit * 0.5;
+  @include relative-font-size(1.125);
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  @include relative-font-size(0.9375);
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit * 0.5;
+    padding-left: $spacing-unit * 0.5;
+  }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Icons
+ */
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #{$grey-color};
+    padding-right: 5px;
+    vertical-align: text-top;
+}
+
+.social-media-list {
+  li + li {
+    padding-top: 5px;
+  }
+}
+
+/**
+ * Tables
+ */
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  color: lighten($text-color, 18%);
+  border-collapse: collapse;
+  border: 1px solid $grey-color-light;
+  tr {
+    &:nth-child(even) {
+      background-color: lighten($grey-color-light, 6%);
+    }
+  }
+  th, td {
+    padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
+  }
+  th {
+    background-color: lighten($grey-color-light, 3%);
+    border: 1px solid darken($grey-color-light, 4%);
+    border-bottom-color: darken($grey-color-light, 12%);
+  }
+  td {
+    border: 1px solid $grey-color-light;
+  }
+}

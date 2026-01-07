@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Adishila';
+  src: url('assets/fonts/font/Adishila.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Adishila SemiBold';
+  src: url('assets/fonts/font/AdishilaSemiBoldB.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sanskrit2003';
+  src: url('assets/fonts/font/Sanskrit2003.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Sanskrit2003', sans-serif;
+  font-size: 14pt;
+}
+
+p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Capture the text of the last <h2> */
+h2 {
+  string-set: section content();
+  font-size: 16pt;
+  margin-left: 15pt;
+  text-decoration: underline;
+}
+
+h1 {
+  string-set: taranga content();
+  font-size: 16pt;
+  page-break-before: always; /* forces a page break after the title page */
+}
+
+h3 {
+  font-size: 14pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Sanskrit2003', sans-serif;
+  font-size: 24pt;
+}
+
+.title-page {
+  page-break-after: always; /* forces a page break after the title page */
+}
+
+
+.footnote {
+  border-left: 1px dashed black;
+  padding-left: 12px;
+}
+
+.tags {
+  font-style: italic;
+  font-size: 10pt;
+}
+
+@counter-style devanagari {
+  system: numeric;
+  symbols: ० १ २ ३ ४ ५ ६ ७ ८ ९;
+  suffix: "";
+}
+
+@page {
+  size: 5.5in 8.5in;  /* width height in inches */
+  margin: 1.5cm;         /* adjust as needed */
+  font-family: 'Sanskrit2003', sans-serif;
+  /* Bottom footer: Devanāgarī page number */
+    @bottom-center {
+      content: "– " counter(page, devanagari) " –";
+      font-size: 10pt;
+    }
+}
+
+@page :left {
+    @top-center {
+      content: string(taranga);
+      font-size: 10pt;
+    }
+}
+
+@page :right {
+    @top-center {
+      content: string(section);
+      font-size: 10pt;
+    }
+}

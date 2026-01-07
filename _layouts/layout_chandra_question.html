@@ -1,0 +1,11 @@
+---
+layout: layout_collection_nav
+parent: /chandra
+---
+
+      <div class="item_question" id="{{page.kala_number}}.{{ page.question_number }}" ><img src="/assets/images/icons/file-regular.svg" class="icon-card"/> <span class="question_number">{{page.kala_number}}.{{ page.question_number }}</span>
+        <span class="skt_span"> &nbsp; {{ page.question_text_skt }} </span>
+      </div><p/>
+
+{% include content_sections.html content=page.content %}
+{% include tags.html index_terms=page.index_terms link_terms=page.link_terms %}
