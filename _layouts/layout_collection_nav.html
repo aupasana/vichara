@@ -1,0 +1,29 @@
+---
+layout: default
+nomangala: true
+---
+
+<div class="skt">
+  <div class="mangala" markdown="1">
+  <a id="parent" href="{{ layout.parent }}"><img src="/assets/images/icons/arrow-up-solid.svg" class="icon-head"/></a>{% if page.previous %} <a id="prev" href="{{ page.previous.url }}"><img src="/assets/images/icons/backward-step-solid.svg" class="icon-head"/></a> {% endif %}  
+              ॐ गुरुपरमात्मने नमः
+  {% if page.next %}<a id="next" href="{{ page.next.url }}"><img src="/assets/images/icons/forward-step-solid.svg" class="icon-head"/></a>{% endif %} 
+  </div><p/>
+</div>
+
+    {% if page.draft %}
+<div class="note-box">
+<img src="/assets/images/icons/spinner-solid.svg" width="20" height="20"/>
+This is a very early draft, and has not been proofread.
+</div><br/>
+    {% endif %}
+
+
+{{ content }}
+
+<div class="skt">
+  <div class="mangala" markdown="1">
+  {% if page.previous %} <a href="{{ page.previous.url }}"><img src="/assets/images/icons/backward-step-solid.svg" class="icon-head"/></a> {% endif %}  
+  {% if page.next %}<a href="{{ page.next.url }}"><img src="/assets/images/icons/forward-step-solid.svg" class="icon-head"/></a>{% endif %} 
+  </div><p/>
+</div>

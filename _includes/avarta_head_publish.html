@@ -1,0 +1,18 @@
+{% assign avarta = include.avarta_num | plus: 0 %}
+
+{% assign b_section = site.data.sagara_sections 
+  | where_exp: "s", "avarta == s.start" %}
+
+{% assign b_avarta = site.data.sagara_sections 
+| where_exp: "s", "avarta == s.start" 
+| where_exp: "s", "s.label contains 'तरङ्गः'" %}
+
+{% for ba_i in b_avarta %} 
+<h1 class="taranga">{{ba_i.label | replace: "--", "—" }}</h1>
+{% endfor %}
+
+{% for b_i in b_section %} 
+{% assign range = b_i.start | append: "-" | append: b_i.end %}
+<h3>आवर्ताः {% include to_devanagari_numbers.html text=range %} {{b_i.label | replace: "--", "—" }}</h3>
+{% endfor %}
+

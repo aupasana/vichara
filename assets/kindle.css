@@ -1,0 +1,12 @@
+/* Strong text: dark blue + underline */
+strong {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+/* Footnotes: left border + padding */
+.footnote {
+    border-left: 1px dashed black;
+    padding-left: 30px;
+    margin-left: 0; /* reset just in case */
+}

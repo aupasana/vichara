@@ -1,0 +1,38 @@
+# Python environment for scripts/ — pinned so the snippet render pipeline is
+# reproducible.
+#
+#   python3 -m venv path/to/venv
+#   path/to/venv/bin/pip install -r requirements.txt
+#
+# Direct dependencies are weasyprint, beautifulsoup4, PyYAML and pillow; the
+# rest are transitive. This is a full freeze rather than a direct-dependency
+# list because WeasyPrint's rendering depends on its own dependency versions
+# (pydyf writes the PDF, tinycss2 parses the CSS), so a card can shift
+# without weasyprint itself changing.
+#
+# WeasyPrint also binds to system libraries that pip cannot pin — pango,
+# harfbuzz and fontconfig, installed here via Homebrew. Text metrics can move
+# when those are upgraded, independently of anything in this file.
+#
+# Not included: scripts/ocr_image.py and scripts/ocr_translate.py import
+# google-cloud-vision and google-cloud-translate, which are not installed in
+# this environment.
+
+beautifulsoup4==4.13.4
+Brotli==1.1.0
+bs4==0.0.2
+cffi==1.17.1
+cssselect2==0.8.0
+fonttools==4.59.1
+pillow==11.3.0
+pycparser==2.22
+pydyf==0.11.0
+pyphen==0.17.2
+PyYAML==6.0.2
+soupsieve==2.7
+tinycss2==1.4.0
+tinyhtml5==2.0.0
+typing_extensions==4.14.0
+weasyprint==66.0
+webencodings==0.5.1
+zopfli==0.2.3.post1

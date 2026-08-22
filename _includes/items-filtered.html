@@ -1,0 +1,4 @@
+
+{% assign group_kala = site.chandra_question | group_by: "kala_number" %}
+{% assign items_kala_one = group_kala | where: "name", "1" | first %}
+

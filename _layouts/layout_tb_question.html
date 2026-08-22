@@ -1,0 +1,10 @@
+---
+layout: layout_collection_nav
+parent: /tattvabodha
+---
+
+<div class="item_question" id="{{page.section_number}}.{{ page.question_number }}" >{{page.section_number}}.{{ page.question_number }}: 
+<span class="skt_span">{{ page.question_text_skt }}</span></div><p/>
+
+{% include content_sections.html content=page.content %}
+{% include tags.html index_terms=page.index_terms link_terms=page.link_terms %}

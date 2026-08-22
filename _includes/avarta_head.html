@@ -1,0 +1,20 @@
+{% assign avarta = include.avarta_num | plus: 0 %}
+
+{% assign b_section = site.data.sagara_sections
+  | where_exp: "s", "avarta > s.start"
+  | where_exp: "s", "avarta <= s.end" %}
+  
+  {% for b_i in b_section %}
+  {% assign range = b_i.start | append: "-" | append: b_i.end %}
+- <a href="/sagara#{{b_i.start}}-{{b_i.end}}">{% include to_devanagari_numbers.html text=range %} {{ b_i.label }}</a><br/>
+  {% endfor %}
+
+<hr/>
+
+{% assign b_section = site.data.sagara_sections 
+  | where_exp: "s", "avarta == s.start" %}
+{% for b_i in b_section %}
+- <a href="/sagara#{{b_i.start}}-{{b_i.end}}">{% include to_devanagari_numbers.html text=range %} {{ b_i.label }}</a><br/>
+{% endfor %}
+
+<br/>

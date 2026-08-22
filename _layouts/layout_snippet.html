@@ -1,0 +1,38 @@
+---
+layout: default
+nomangala: true
+showTranslations: true
+---
+
+<div class="snippet-stage">
+  <div class="snippet-card">
+
+    <div class="snippet-rail">
+      {% if page.image %}
+      <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}"/>
+      {% else %}
+      <!-- 480 &times; 960 -->
+      <div class="snippet-rail-placeholder"></div>
+      {% endif %}
+    </div>
+
+    <div class="snippet-body">
+
+      <h1 class="snippet-title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+      <div class="snippet-title-rule"></div>
+
+      <div class="snippet-content">
+        {{ content }}
+      </div>
+
+      {% if page.source %}
+      <div class="snippet-source">
+        <span class="snippet-source-ref">{{ page.source }}</span>
+        <span class="snippet-source-site">vichara.aupasana.com/snippets</span>
+      </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+</div>
